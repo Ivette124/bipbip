@@ -1,0 +1,280 @@
+body{
+    background-image:url(fondillo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #100f0f;
+    padding: 2em 2em 4em;
+
+}
+header{
+margin: 0;
+padding: 0;
+position: relative;
+overflow: hidden;
+
+
+
+}
+
+header img 
+{
+width: 75px;
+position: absolute;
+right: 0;
+top: 0;
+
+
+
+}
+header h1
+{
+background: #b0c0d9;
+font-family: sans-serif;
+font-size: 16px;
+margin: 100px 0 0px 0;
+text-align: center;
+color: black;}
+
+nav
+   { 
+     margin:0 auto;
+     text-align: center;
+     padding:1px 0;  
+           }  
+nav ul{
+       position: relative;
+       padding: 0;
+    } 
+nav #funciones_nav {
+    background: #c69c6d;                                                ;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;  
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;}
+
+nav #luce_nav{
+    background: #b0c0d9;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;  
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;}
+  
+nav #explorando_nav{
+    background: #b7caaf;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;  
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;}
+
+nav #contacto_nav{
+    background:#b0c0d9; 
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;  
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;}
+    
+nav #redes_nav{
+    background: #c69c6d;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) -2px 2px 15px;  
+    text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em 1em 0;}
+
+#contenido .item_1 img
+    {
+    background: transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width:95%; 
+              
+    }
+#contenido .item_2 
+    {               
+background: #eee;
+margin:0 auto;
+width: 72%;         
+padding: 5px 15px;
+height: 100%;
+border-right:2px solid #ddd;
+border-left:2px solid #ddd;
+}
+ 
+#contenido input {         
+visibility: hidden;
+display: none;
+}
+ 
+label img {        
+width: 100%;
+height:100%;
+}
+ 
+#contenido label {          
+cursor: pointer;
+font-size: 15px;
+line-height: 40px;
+max-height: 100px;
+height:13%;
+width:18.15%;
+padding: 0;
+display: inline-block;
+margin-right: 4px;
+opacity:0.7;
+border:6px solid #f0f0f0;
+box-shadow:0 0 0 1px #ccc;
+}
+ 
+#contenido input:checked + label {             
+position: relative;
+opacity:1;                      
+border:6px solid #ddd;          
+transition: .2s;               
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transform:rotate(360deg);       
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+ 
+.content {              
+position: relative;
+width: 100%;
+height:100%;
+padding: 0;
+z-index: 5;
+}
+ 
+.content div {      
+position: absolute;
+z-index: -100;
+opacity: 0;
+}
+ 
+#contenido input.tab-selector-1:checked ~ .content .content-1,
+#contenido input.tab-selector-2:checked ~ .content .content-2,
+#contenido input.tab-selector-3:checked ~ .content .content-3,
+#contenido input.tab-selector-4:checked ~ .content .content-4,
+#contenido input.tab-selector-5:checked ~ .content .content-5 
+#contenido input.tab-selector-6:checked ~ .content .content-6
+#contenido input.tab-selector-7:checked ~ .content .content-7
+#contenido input.tab-selector-8:checked ~ .content .content-8
+#contenido input.tab-selector-9:checked ~ .content .content-9
+#contenido input.tab-selector-10:checked ~ .content .content-10
+#contenido input.tab-selector-11:checked ~ .content .content-11
+#contenido input.tab-selector-12:checked ~ .content .content-12
+{            
+z-index: 100;
+opacity: 1;
+    -webkit-transition: all ease-out 0.2s 0.1s;        
+    -moz-transition: all ease-out 0.2s 0.1s;
+    -o-transition: all ease-out 0.2s 0.1s;
+}
+ 
+.content div img {          
+margin-top:5px;
+width: 97.30%;
+height:90%;
+border:6px solid #f0f0f0;
+box-shadow:0 0 0 1px #ccc;
+
+
+   
+  
+              }
+#contenido .item_3 .pizza img{
+    background: transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width:95%;}
+
+#contenido .item_3 div iframe{
+    background: transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width:95%;
+    }
+    
+#contenido .item_3 .botella img{
+    background:transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 1em auto;
+    width:95%;}
+
+#contenido .item_4{
+    background-image:url(dots.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    color: white;
+    text-align: center;
+}
+#contenido .item_4 .notas img{
+    background: transparent;
+    display:inline-block;
+    margin: 2px 0;
+    max-width: 55%;
+    top: 0;
+    }
+
+#contenido .item_4 p{
+    
+    text-align: center;
+    top: 0;
+     
+    }
+#contenido .item_5 {
+     background:#b7caaf                                                            ;
+     margin:0;
+     text-align: center;
+     padding:0;
+    }
+#contenido .item_5 figure{
+    
+    display: inline-block;
+    width:80px;
+            }
+footer
+{
+    background:#b0c0d9;
+    color: rgba(11, 0, 0, 0.7);
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: italic;
+    display: block;
+    
+}
+
+@media screen and (min-width:480px)
+
+
+
+
+
